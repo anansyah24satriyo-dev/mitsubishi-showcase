@@ -9,6 +9,8 @@ export const cars = [
     priceValue: 429,
     price: "Rp 429,350,000",
     image: "/cars/xforce.jpeg",
+    featured: true,
+    popular: true,
   },
   {
     id: 2,
@@ -18,6 +20,8 @@ export const cars = [
     priceValue: 297,
     price: "Rp 297,900,000",
     image: "/cars/xpanderexceedtourer.jpeg",
+    featured: true,
+    popular: true,
   },
   {
     id: 3,
@@ -27,6 +31,8 @@ export const cars = [
     priceValue: 337,
     price: "Rp 337,800,000",
     image: "/cars/xpanderultimate.jpeg",
+    featured: false,
+    popular: true,
   },
   {
     id: 4,
@@ -36,6 +42,8 @@ export const cars = [
     priceValue: 364,
     price: "Rp 364,200,000",
     image: "/cars/xpandercross.jpeg",
+    featured: true,
+    popular: false,
   },
   {
     id: 5,
@@ -45,6 +53,8 @@ export const cars = [
     priceValue: 485,
     price: "Rp 485,000,000",
     image: "/cars/destinator.jpeg",
+    featured: true,
+    popular: false,
   },
   {
     id: 6,
@@ -54,6 +64,8 @@ export const cars = [
     priceValue: 665,
     price: "Rp 665,300,000",
     image: "/cars/pajerosport.jpeg",
+    featured: true,
+    popular: false,
   },
   {
     id: 7,
@@ -63,6 +75,8 @@ export const cars = [
     priceValue: 543,
     price: "Rp 543,750,000",
     image: "/cars/triton.jpeg",
+    featured: true,
+    popular: false,
   },
   {
     id: 8,
@@ -72,5 +86,7 @@ export const cars = [
     priceValue: 251,
     price: "Rp 251,200,000",
     image: "/cars/l300.jpeg",
+    featured: true,
+    popular: false,
   },
 ]
