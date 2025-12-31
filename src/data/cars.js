@@ -1,6 +1,6 @@
 // src/data/cars.js
 import xforece from "../assets/cars/xforece.jpeg"
-import xpanderexceedTourer from "../assets/cars/xpanderexceedTourer.jpeg"
+import xpanderexceedtourer from "../assets/cars/xpanderexceedtourer.jpeg"
 import xpanderultimate from "../assets/cars/xpanderultimate.jpeg"
 import xpandercross from "../assets/cars/xpandercross.jpeg"
 import destinator from "../assets/cars/destinator.jpeg"
@@ -27,7 +27,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 297,
     price: "Rp 297,900,000",
-    image: xpanderexceedTourer,
+    image: xpanderexceedtourer,
     featured: true,
     popular: true,
   },
