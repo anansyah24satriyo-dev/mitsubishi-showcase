@@ -1,7 +1,7 @@
 // src/data/cars.js
 import XForece from "../assets/cars/XForece.jpeg"
 import XPanderExceedTourer from "../assets/cars/XPanderExceedTourer.jpeg"
-import XpanderUtimate from "../assets/cars/XPanderUtimate.jpeg"
+import XpanderUltimate from "../assets/cars/XPanderUltimate.jpeg"
 import XpanderCross from "../assets/cars/XpanderCross.jpeg"
 import Destinator from "../assets/cars/Destinator.jpeg"
 import PajeroSport from "../assets/cars/PajeroSport.jpeg"
@@ -38,7 +38,7 @@ export const cars = [
     transmission: "Manual",
     priceValue: 337,
     price: "Rp 337,800,000",
-    image: XpanderUtimate,
+    image: XpanderUltimate,
     featured: false,
     popular: true,
   },
