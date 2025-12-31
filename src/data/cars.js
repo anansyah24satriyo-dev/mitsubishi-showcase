@@ -1,12 +1,12 @@
 // src/data/cars.js
-import XForece from "../assets/cars/XForece.jpeg"
-import XPanderExceedTourer from "../assets/cars/XPanderExceedTourer.jpeg"
-import XpanderUltimate from "../assets/cars/XPanderUltimate.jpeg"
-import XpanderCross from "../assets/cars/XpanderCross.jpeg"
-import Destinator from "../assets/cars/Destinator.jpeg"
-import PajeroSport from "../assets/cars/PajeroSport.jpeg"
-import Triton from "../assets/cars/Triton.jpeg"
-import L300 from "../assets/cars/L300.jpeg"
+import xforece from "../assets/cars/xforece.jpeg"
+import xpanderexceedTourer from "../assets/cars/xpanderexceedTourer.jpeg"
+import xpanderultimate from "../assets/cars/xpanderultimate.jpeg"
+import xpandercross from "../assets/cars/xpandercross.jpeg"
+import destinator from "../assets/cars/destinator.jpeg"
+import pajeroSport from "../assets/cars/pajeroSport.jpeg"
+import triton from "../assets/cars/triton.jpeg"
+import l300 from "../assets/cars/l300.jpeg"
 
 export const cars = [
   {
@@ -16,7 +16,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 429,
     price: "Rp 429,350,000",
-    image: XForece,
+    image: xforece,
     featured: true,
     popular: true,
   },
@@ -27,7 +27,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 297,
     price: "Rp 297,900,000",
-    image: XPanderExceedTourer,
+    image: xpanderexceedTourer,
     featured: true,
     popular: true,
   },
@@ -38,7 +38,7 @@ export const cars = [
     transmission: "Manual",
     priceValue: 337,
     price: "Rp 337,800,000",
-    image: XpanderUltimate,
+    image: xpanderultimate,
     featured: false,
     popular: true,
   },
@@ -49,7 +49,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 364,
     price: "Rp 364,200,000",
-    image: XpanderCross,
+    image: xpandercross,
     featured: true,
     popular: false,
   },
@@ -60,7 +60,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 485,
     price: "Rp 485,000,000",
-    image: Destinator,
+    image: destinator,
     featured: true,
     popular: false,
   },
@@ -71,7 +71,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 665,
     price: "Rp 665,300,000",
-    image: PajeroSport,
+    image: pajeroSport,
     featured: true,
     popular: false,
   },
@@ -82,7 +82,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 543,
     price: "Rp 543,750,000",
-    image: Triton,
+    image: triton,
     featured: true,
     popular: false,
   },
@@ -93,7 +93,7 @@ export const cars = [
     transmission: "Automatic",
     priceValue: 251,
     price: "Rp 251,200,000",
-    image: L300,
+    image: l300,
     featured: true,
     popular: false,
   },
