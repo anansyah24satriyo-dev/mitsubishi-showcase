@@ -3,9 +3,8 @@ import React from "react"
 export default function Hero() {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-black via-zinc-900 to-black text-white overflow-hidden">
-      
       <div className="container mx-auto px-6 pt-40 pb-28 flex flex-col lg:flex-row items-center gap-12">
-        
+
         {/* TEXT */}
         <div className="lg:w-1/2">
           <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
@@ -37,12 +36,42 @@ export default function Hero() {
         </div>
 
         {/* IMAGE */}
-        <div className="lg:w-1/2">
-          <img
-            src="./Hero.jpg"
-            alt="Mitsubishi Car"
-            className="w-full max-w-xl mx-auto drop-shadow-[0_40px_80px_rgba(0,0,0,0.6)]"
-          />
+        <div className="lg:w-1/2 flex justify-center">
+          <div
+            className="
+              relative
+              rounded-3xl
+              overflow-hidden
+              border border-zinc-800
+              shadow-2xl shadow-black/60
+              group
+            "
+          >
+            {/* RED GLOW */}
+            <div
+              className="
+                absolute inset-0
+                bg-red-600/10
+                opacity-0
+                group-hover:opacity-100
+                transition
+              "
+            />
+
+            <img
+              src="/Hero.jpg"
+              alt="Mitsubishi Car"
+              className="
+                w-full max-w-xl
+                object-cover
+                transition duration-500
+                group-hover:scale-105
+              "
+            />
+
+            {/* RED ACCENT LINE */}
+            <div className="absolute bottom-0 left-0 h-1 w-full bg-red-600" />
+          </div>
         </div>
 
       </div>
