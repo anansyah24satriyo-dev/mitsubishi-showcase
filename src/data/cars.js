@@ -1,7 +1,7 @@
 // src/data/cars.js
 import xforce from "../assets/cars/xforce.jpeg"
 import xpanderexceedtourer from "../assets/cars/xpanderexceedtourer.jpeg"
-import xpanderulitmate from "../assets/cars/xpanderulitmate.jpeg"
+import xpanderultimate from "../assets/cars/xpanderultimate.jpeg"
 import xpandercross from "../assets/cars/xpandercross.jpeg"
 import destinator from "../assets/cars/destinator.jpeg"
 import pajerosport from "../assets/cars/pajerosport.jpeg"
@@ -11,8 +11,8 @@ import l300 from "../assets/cars/l300.jpeg"
 export const cars = [
   {
     id: 1,
-    name: "XForece",
-    model: "XForece",
+    name: "XForce",
+    model: "XForce",
     transmission: "Automatic",
     priceValue: 429,
     price: "Rp 429,350,000",
@@ -22,8 +22,8 @@ export const cars = [
   },
   {
     id: 2,
-    name: "XPander Exceed Tourer",
-    model: "XPander Exceed Tourer Cvt",
+    name: "Xpander Exceed Tourer",
+    model: "Xpander Exceed Tourer CVT",
     transmission: "Automatic",
     priceValue: 297,
     price: "Rp 297,900,000",
@@ -33,19 +33,19 @@ export const cars = [
   },
   {
     id: 3,
-    name: "Xpander ultimate",
-    model: "Xpander ultimate Cvt",
-    transmission: "Manual",
+    name: "Xpander Ultimate",
+    model: "Xpander Ultimate CVT",
+    transmission: "Automatic",
     priceValue: 337,
     price: "Rp 337,800,000",
-    image: xpanderulitmate,
+    image: xpanderultimate,
     featured: false,
     popular: true,
   },
   {
     id: 4,
     name: "Xpander Cross",
-    model: "Xpander Cross Premium Cvt",
+    model: "Xpander Cross Premium CVT",
     transmission: "Automatic",
     priceValue: 364,
     price: "Rp 364,200,000",
@@ -90,7 +90,7 @@ export const cars = [
     id: 8,
     name: "COLT L300",
     model: "L300",
-    transmission: "Automatic",
+    transmission: "Manual",
     priceValue: 251,
     price: "Rp 251,200,000",
     image: l300,
